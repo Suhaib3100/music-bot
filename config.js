@@ -1,6 +1,6 @@
 require('dotenv').config();
 module.exports = {
-    SUPPORT_SERVER: 'https://discord.gg/c4-clan-community-917454141087965244',
+    SUPPORT_SERVER: 'https://discord.gg/darkcityrp',
     OWNER_ID: "",// Your discord id
     CLIENT_ID: '',// Your Bot id
     PREFIX: '!',// Your general prefix
@@ -22,7 +22,7 @@ module.exports = {
     },
     MUSIC: {
         IDLE_TIME: 10,//time in seconds before the client disconnects from the voice channel.
-        A24: false, // true = continue playing 24/7H, false = stop playing when no one listens to the bot
+        A24: true, // true = continue playing 24/7H, false = stop playing when no one listens to the bot
     },
     NODES: [  
         {
