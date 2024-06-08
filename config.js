@@ -17,7 +17,7 @@ module.exports = {
         CLIENT_SECRET: process.env.CLIENT_SECRET || "", // your bot client secreti
         PASSWORD: process.env.TOP_SECRET_PASSWORD || "mypassword", // your top secret password, you can change it to anything you want
         PORT: process.env.PORT || 80, // your dashboard port number
-        dashboardURL: "https://c21c15b8-63bf-44f9-9a5e-22c2275f551d-00-3l5fcqwbsatnd.sisko.replit.dev", // change it to your dashboard url
+        dashboardURL: "https://music-bot-a59d.onrender.com", // change it to your dashboard url
         callbackURL: "/auth", //don't change this
     },
     MUSIC: {
